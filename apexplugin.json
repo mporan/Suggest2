@@ -1,7 +1,7 @@
 {
   "name" : "Suggest2",
   "version" : "1.0.0",
-  "description" : "Extend APEX Select2 plug-in with suggestions!",
+  "description" : "Extend Select2 plug-in with suggestions!",
   "keywords" : ["select2", "quickpicks", "picks", "history", "autofill", "menu", "search"],
   "homepage" : "https://github.com/mporan/Suggest2",
   "bugs" : {
