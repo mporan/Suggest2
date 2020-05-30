@@ -1,0 +1,86 @@
+
+.suggest__header {
+    margin: 6px 6px 0 6px;
+    padding-top: 7px;
+    border-top: 1px solid #aaa;
+    font-size: 10px;
+    color: #999;
+}
+.suggest__options {
+    padding-bottom: 10px;
+}
+.suggest__option {
+  color: black; 
+  display: block; 
+  padding: 6px;
+  text-decoration: none; 
+}
+.suggest__option:hover {
+  background-color: #eee; 
+}
+.suggest__option i, 
+.suggest__header i
+{
+    float: right;
+    font-style: normal;
+    font-size: 10px;
+    color: #999;
+    padding: 0 4px;
+    cursor: pointer; 
+}
+.suggest__option i:hover,
+.suggest__header i:hover {
+  color: #ff0000;
+}
+a.suggest__option .fa {
+    color: #999;
+    padding-right: 8px;
+    vertical-align: baseline;
+}
+.suggest__option--selected {
+    background-color: #ddd;
+}
+.suggest__loading {
+  animation: blinker 1s linear infinite;
+}
+@keyframes blinker {  
+  50% { opacity: 0.6; }
+}
+.t-Form-fieldContainer--select2-grey-large span.select2-selection.select2-selection--single,
+.t-Form-fieldContainer--select2-grey-large .select2-container--default .select2-selection--multiple {
+    border: none;
+    background-color: #f1f1f1;
+    min-height: 47px;
+}
+.t-Form-fieldContainer--select2-grey-large .select2-container .select2-selection--single .select2-selection__rendered {
+    padding: 10px 40px 10px 20px;    
+    border-color: #444444 transparent transparent transparent;
+}
+.t-Form-fieldContainer--select2-grey-large .select2-container--default .select2-selection--single .select2-selection__arrow {
+    top:12px;
+    right: 12px;
+}
+.t-Form-fieldContainer--select2-grey-large span.select2-selection.select2-selection--single,
+.t-Form-fieldContainer--select2-grey-large span.select2-selection..select2-selection--multiple {
+    padding: 10px 35px 10px 10px;
+}
+@media (max-width: 640px) {
+    .t-Form-fieldContainer--select2-grey-large .t-Form-itemWrapper {
+        width:100%
+    }
+}
+
+/* custom-html */
+.suggest__custom-html  {
+    margin: 6px 6px 8px 6px;    
+    padding-top: 6px;
+    border-top: 1px solid #aaa;
+    font-size: 12px;
+}
+.custom-html__header {
+    color: #999;
+    font-size: 10px;
+}
+.suggest__custom-html li {
+    font-size: 10px;
+}
