@@ -1,0 +1,36 @@
+{
+  "name" : "Suggest2",
+  "version" : "1.0.0",
+  "description" : "Extend APEX Select2 plug-in with suggestions!",
+  "keywords" : ["select2", "quickpicks", "picks", "history", "autofill", "menu", "search"],
+  "homepage" : "https://github.com/mporan/Suggest2",
+  "bugs" : {
+    "url" : "https://github.com/mporan/Suggest2/issues",
+    "email" : "matan.poran@gmail.com"
+  },
+  "license" : "MIT",
+  "commercial" : "No",
+  "author" : {
+    "name" : "Matan Poran",
+    "email" : "matan.poran@gmail.com",
+    "url" : "https://www.linkedin.com/in/matan-poran/"
+    "twitter" : ""
+    "donationUrl" : ""
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/mporan/Suggest2.git"
+  },
+  "oracle" : {
+    "versions" : ["12.1.0.2", "18.7.0.0"],
+    "apex" : {
+      "versions" : ["5.1.0", "20.1.0"],
+      "plugin" : {
+        "internalName" : "APEXUX.MPORAN.SUGGEST2",
+        "type" : "dynamic action",
+        "demo" : "https://apex.oracle.com/pls/apex/poran/r/suggest2",
+        "previewImage" : "https://raw.githubusercontent.com/mporan/Suggest2/master/Suggest2-preview.gif"
+      }
+    }
+  }
+}
