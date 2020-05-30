@@ -33,9 +33,9 @@ Extend Oracle APEX [Select2](https://github.com/nbuytaert1/apex-select2) plug-in
 * 'Remove' action triggers custom PL/SQL from plug-in settings using AJAX. No page reload needed.
 
 ## Install
-1. Import plug-in file 'dynamic_action_plugin_apexux_mporan_suggest2.sql' from source directory into your application.
-2. Import package from source directory to database (better performance). Alternatively paste the functions render_dynamic_action and da_ajax into the plug-in's source PL/SQL and remove package name from callbacks.
-3. Optional: For better performance copy css and js files to server and call them on 'File URLs to Load'.
+1. Import plug-in file 'dynamic_action_plugin_apexux_mporan_suggest2.sql' from 'source' directory into your application.
+2. Import package from 'source' directory to database (better performance). Alternatively paste the functions render_dynamic_action and da_ajax into the plug-in's source PL/SQL and remove package name from callbacks.
+3. Optional: For better performance copy css and js files from 'server' directory to server and call them on 'File URLs to Load'.
 4. Create a new dynamic action for a “Page Load” event.
 5. For True action select “Suggest2 [Plug-In]”.
 6. On plug-in settings, assign target Select2 item and provide a query or custom HTML (see Plug-in Setting).
