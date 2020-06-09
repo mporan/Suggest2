@@ -21,7 +21,7 @@ Extend Oracle APEX [Select2](https://github.com/nbuytaert1/apex-select2) plug-in
 * [Install](#install)
 * [Plug-in Settings](#plug-in-settings)
 * [Quickstart Setup](#quickstart-setup)
-  * [Option A - Database table](#option-a---database-table)
+  * [Option A - Database Table](#option-a---database-table)
   * [Option B - APEX Collection](#option-b---apex-collection)
 
 
@@ -73,7 +73,7 @@ You may use the following steps to start capturing user’s selection history an
 This example utilizes the procedures that are included in the plug-in package.
 Basically the plug-in requires only a query. You are free to use any other method that fits your needs to display suggestions.
 
-### Option A - Database table
+### Option A - Database Table
 This is the preferred option. History is kept on a table and is available across sessions.
 
 1.	Create a table to capture selections.
