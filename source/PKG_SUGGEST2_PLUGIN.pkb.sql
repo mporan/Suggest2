@@ -1,3 +1,4 @@
+
 CREATE OR REPLACE PACKAGE BODY "PKG_SUGGEST2_PLUGIN" AS
 
     FUNCTION render_dynamic_action (
@@ -64,9 +65,9 @@ CREATE OR REPLACE PACKAGE BODY "PKG_SUGGEST2_PLUGIN" AS
             l_attr_limit := 20;
         END IF;
 
-        apex_debug.message('ajax_region');
+        apex_debug.message('suggest2 ajax function');
         IF apex_application.g_x01 = 'DRAW' THEN
-            apex_debug.message('ajax_region DRAW');
+            apex_debug.message('suggest2 ajax function DRAW');
             l_attr_lov := replace(l_attr_lov, '@PAGE_ITEM@', l_attr_page_item);
             l_column_value_list := apex_plugin_util.get_data(p_sql_statement => l_attr_lov, p_min_columns => 2, p_max_columns => 50,
             p_component_name => 'document', p_max_rows => l_attr_limit);
@@ -92,11 +93,11 @@ CREATE OR REPLACE PACKAGE BODY "PKG_SUGGEST2_PLUGIN" AS
                                                 || '');
 
             l_plsql := replace(l_plsql, '@PAGE_ITEM@', l_attr_page_item);
-            apex_debug.message('execute_plsql_code: ' || l_plsql);
+            apex_debug.message('suggest2 ajax function execute_plsql_code: ' || l_plsql);
             apex_plugin_util.execute_plsql_code(p_plsql_code => l_plsql);
         ELSIF apex_application.g_x01 = 'DELETE_ALL' THEN
             l_plsql := replace(l_attr_remove_all_plsql, '@PAGE_ITEM@', l_attr_page_item);
-            apex_debug.message('execute_plsql_code: ' || l_plsql);
+            apex_debug.message('suggest2 ajax function execute_plsql_code: ' || l_plsql);
             apex_plugin_util.execute_plsql_code(p_plsql_code => l_plsql);
         END IF;
 
