@@ -17,7 +17,7 @@ Extend Oracle APEX [Select2](https://github.com/nbuytaert1/apex-select2) plug-in
 
 ## Table of Contents
 
-* [How it works](#how-it-works)
+* [How it Works](#how-it-works)
 * [Install](#install)
 * [Plug-in Settings](#plug-in-settings)
 * [Quickstart Setup](#quickstart-setup)
@@ -25,7 +25,7 @@ Extend Oracle APEX [Select2](https://github.com/nbuytaert1/apex-select2) plug-in
   * [Option B - APEX Collection](#option-b---apex-collection)
 
 
-## How it works
+## How it Works
 * After clicking a Select2 page item, suggestions appear inside the dropdown.
 * Clicking a suggestion sets the value of Select2 page item.
 * Once the user starts typing, the suggestions are replaced with Select2 results (Similar to the behavior of Google's search box).
