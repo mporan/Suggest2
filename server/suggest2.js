@@ -20,7 +20,7 @@ var mporan_suggest2 = {
 		var customHtml = daThis.action.attribute10;
 		var select2Instance = $(affectedElementSelector).data('select2');
 
-		apex.debug("affectedElementSelectorId " + affectedElementId);
+		apex.debug("affectedElementId " + affectedElementId);
 
 		select2Instance.on('results:message', function(e){
 			mporan_suggest2.fixGap(select2Instance);
