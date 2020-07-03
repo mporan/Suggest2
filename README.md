@@ -40,6 +40,7 @@ Extend Oracle APEX [Select2](https://github.com/nbuytaert1/apex-select2) plug-in
 5. For True action select “Suggest2 [Plug-In]”.
 6. On plug-in settings, assign target Select2 item and provide a query or custom HTML (see Plug-in Setting).
 
+Plug-in was tested on APEX 5.1/20.1
 
 ## Plug-in Settings
 
