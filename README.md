@@ -213,3 +213,6 @@ PKG_SUGGEST2_PLUGIN.DELETE_ITEMS_COLLECTION (
     P_ID        => null
   );
 ```
+
+## Optional Commercial Support
+The guys at FOEX offer commercial support for this plug-in. They have added this plug-in as a part of their "APEX Plug-in Support Package", for more information please visit their [APEX Plug-in Support](https://www.foex.at/plugin-support) page. I have opted to include my plug-in in their support package because you can get professional support for any issues you face in a timely manner as well as the "peace of mind" that it will be supported for many years to come!
